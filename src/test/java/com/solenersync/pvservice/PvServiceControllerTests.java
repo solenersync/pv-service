@@ -1,6 +1,6 @@
-package com.solenersync.sesdemo;
+package com.solenersync.pvservice;
 
-import com.solenersync.sesdemo.controller.HelloController;
+import com.solenersync.pvservice.controller.HelloController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @ExtendWith({MockitoExtension.class})
-class SesDemoControllerTests {
+class PvServiceControllerTests {
 
 	private MockMvc mockMvc;
 
@@ -26,7 +26,7 @@ class SesDemoControllerTests {
 
 	@Test
 	public void getHello() throws Exception {
-		mockMvc.perform(MockMvcRequestBuilders.get("/v1/ses-demo/test").accept(MediaType.APPLICATION_JSON))
+		mockMvc.perform(MockMvcRequestBuilders.get("/v1/pv/test").accept(MediaType.APPLICATION_JSON))
 			.andExpect(status().isOk())
 			.andExpect(content().string(equalTo("Testing 1...2...")));
 	}

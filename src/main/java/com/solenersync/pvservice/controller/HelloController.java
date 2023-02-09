@@ -1,8 +1,8 @@
-package com.solenersync.sesdemo.controller;
+package com.solenersync.pvservice.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping("/v1/ses-demo")
+@RequestMapping("/v1/pv")
 @RestController
 public class HelloController {
 

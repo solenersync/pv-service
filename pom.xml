@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.solenersync</groupId>
-	<artifactId>ses-demo</artifactId>
+	<artifactId>pv-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ses-demo</name>
+	<name>pv-service</name>
 	<description>Demo for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
