@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RequestMapping("/v1/pv")
+@RequestMapping("/api/v1/pv")
 @RestController
 public class PvServiceController {
 
