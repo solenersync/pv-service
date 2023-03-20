@@ -27,5 +27,9 @@ jobs:
           overwrite-settings: false
       - name: Prepare
         run: mvn compile test-compile
-#      - name: Pull and verify contracts
-#        run: mvn test -P pact-provider -Dpact.verifier.publishResults=true -Dpact.provider.version=PR-${GITHUB_REF} -Dpactbroker.url=$PACT_BROKER_BASE_URL -Dpactbroker.token=$PACT_BROKER_TOKEN
+      - name: Pull and verify contracts
+        run:
+            echo ${GITHUB_REF}
+            echo ${PACT_BROKER_BASE_URL}
+            echo ${PACT_BROKER_TOKEN}
+            mvn test -P pact-provider -Dpact.verifier.publishResults=true -Dpact.provider.version=PR-${GITHUB_REF} -Dpactbroker.url=$PACT_BROKER_BASE_URL -Dpactbroker.token=$PACT_BROKER_TOKEN
