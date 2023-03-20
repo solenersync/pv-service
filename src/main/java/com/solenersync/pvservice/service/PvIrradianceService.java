@@ -61,7 +61,7 @@ public class PvIrradianceService {
             }
             return Arrays.asList(pvDetailsArray);
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            log.debug("error converting response");
         }
         return null;
     }
