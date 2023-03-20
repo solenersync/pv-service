@@ -56,7 +56,7 @@ class PvServiceControllerUnitTests {
 			.lat(2.2f)
 			.lon(2.2f)
 			.month(1)
-			.peakPower(2.2f)
+			.peakpower(2.2f)
 			.loss(2.2f)
 			.mounting(Mounting.FREE)
 			.build();
