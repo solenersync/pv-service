@@ -20,6 +20,7 @@ public class PvServiceController {
         this.pvIrradianceService = pvIrradianceService;
     }
 
+    @CrossOrigin
     @PostMapping("/daily")
     public ResponseEntity<List<PvDetails>> getHourlyPv(@RequestBody SolarArrayRequest request) throws DeploymentException {
         return pvIrradianceService.getPvIrradiance(request).map(ResponseEntity::ok)

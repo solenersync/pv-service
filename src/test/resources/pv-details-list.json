@@ -1,0 +1,218 @@
+[
+  {
+    "month": 1,
+    "time": "00:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "01:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "02:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "03:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "04:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "05:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "06:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "07:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "08:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 75.53
+  },
+  {
+    "month": 1,
+    "time": "09:00",
+    "peakGlobalOutput": 0.456576,
+    "G(i)": 55.68,
+    "Gb(i)": 33.52,
+    "Gd(i)": 21.7,
+    "Gcs(i)": 293.89
+  },
+  {
+    "month": 1,
+    "time": "10:00",
+    "peakGlobalOutput": 1.243694,
+    "G(i)": 151.67,
+    "Gb(i)": 86.41,
+    "Gd(i)": 63.82,
+    "Gcs(i)": 474.59
+  },
+  {
+    "month": 1,
+    "time": "11:00",
+    "peakGlobalOutput": 1.8435241,
+    "G(i)": 224.82,
+    "Gb(i)": 133.3,
+    "Gd(i)": 89.32,
+    "Gcs(i)": 587.02
+  },
+  {
+    "month": 1,
+    "time": "12:00",
+    "peakGlobalOutput": 2.0796838,
+    "G(i)": 253.62,
+    "Gb(i)": 151.25,
+    "Gd(i)": 99.84,
+    "Gcs(i)": 619.52
+  },
+  {
+    "month": 1,
+    "time": "13:00",
+    "peakGlobalOutput": 2.030238,
+    "G(i)": 247.59,
+    "Gb(i)": 144.92,
+    "Gd(i)": 100.17,
+    "Gcs(i)": 568.66
+  },
+  {
+    "month": 1,
+    "time": "14:00",
+    "peakGlobalOutput": 1.7200319,
+    "G(i)": 209.76,
+    "Gb(i)": 121.21,
+    "Gd(i)": 86.48,
+    "Gcs(i)": 438.09
+  },
+  {
+    "month": 1,
+    "time": "15:00",
+    "peakGlobalOutput": 1.150788,
+    "G(i)": 140.34,
+    "Gb(i)": 81.75,
+    "Gd(i)": 57.33,
+    "Gcs(i)": 240.71
+  },
+  {
+    "month": 1,
+    "time": "16:00",
+    "peakGlobalOutput": 0.332428,
+    "G(i)": 40.54,
+    "Gb(i)": 25.16,
+    "Gd(i)": 15.07,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "17:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "18:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "19:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "20:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "21:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "22:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  },
+  {
+    "month": 1,
+    "time": "23:00",
+    "peakGlobalOutput": 0.0,
+    "G(i)": 0.0,
+    "Gb(i)": 0.0,
+    "Gd(i)": 0.0,
+    "Gcs(i)": 0.0
+  }
+]

@@ -26,7 +26,7 @@ public class PvIrradianceService {
     private final RestTemplate restTemplate;
     private static final String PVGIS_URL =
         "https://re.jrc.ec.europa.eu/api/DRcalc?angle={angle}&aspect={aspect}&lat={lat}&lon={lon}&loss={loss}&" +
-            "peakpower={peakPower}&mountingplace={mountingplace}&month={month}&global=1&clearsky=1&outputformat=json";
+            "peakpower={peakpower}&mountingplace={mountingplace}&month={month}&global=1&clearsky=1&outputformat=json";
 
     @Autowired
     public PvIrradianceService(ObjectMapper objectMapper, RestTemplate restTemplate) {
@@ -40,23 +40,23 @@ public class PvIrradianceService {
         float lat = request.getLat();
         float lon = request.getLon();
         float loss = request.getLoss();
-        float peakPower = request.getPeakPower();
+        float peakpower = request.getPeakpower();
         int month = request.getMonth();
         Mounting mountingplace = request.getMounting();
         URI url = new UriTemplate(PVGIS_URL)
-            .expand(angle, aspect, lat, lon, loss, peakPower, mountingplace, month);
+            .expand(angle, aspect, lat, lon, loss, peakpower, mountingplace, month);
         ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
-        return Optional.of(convert(response, peakPower));
+        return Optional.of(convert(response, peakpower));
     }
 
-    private List<PvDetails> convert(ResponseEntity<String> response, float peakPower) {
+    private List<PvDetails> convert(ResponseEntity<String> response, float peakpower) {
         try {
             JsonNode root = objectMapper.readTree(response.getBody());
             String jsonString = root.path("outputs").path("daily_profile").toString();
             log.debug("Returning {}", jsonString);
             PvDetails[] pvDetailsArray = objectMapper.readValue(jsonString, PvDetails[].class);
             for (PvDetails pvDetails : pvDetailsArray) {
-                float globalPeak = peakPower * pvDetails.getGlobalIrradiance() / 1000;
+                float globalPeak = peakpower * pvDetails.getGlobalIrradiance() / 1000;
                 pvDetails.setPeakGlobalOutput(globalPeak);
             }
             return Arrays.asList(pvDetailsArray);

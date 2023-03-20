@@ -12,7 +12,7 @@ public class SolarArrayRequest {
     private Integer userId;
     private float lat;
     private float lon;
-    private float peakPower;
+    private float peakpower;
     private float loss;
     private float angle;
     private float aspect;
