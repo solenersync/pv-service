@@ -152,6 +152,7 @@
 									<goal>test</goal>
 								</goals>
 								<configuration>
+									<useSystemClassLoader>false</useSystemClassLoader>
 									<includes>
 										<include>**/*ContractTests.java</include>
 									</includes>
