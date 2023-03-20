@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 public class SolarArrayRequest {
 
-    private Integer user_id;
+    private Integer userId;
     private float lat;
     private float lon;
     private float peakPower;
