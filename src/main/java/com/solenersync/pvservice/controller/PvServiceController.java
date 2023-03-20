@@ -4,7 +4,7 @@ import com.solenersync.pvservice.model.PvDetails;
 import com.solenersync.pvservice.model.SolarArrayRequest;
 import com.solenersync.pvservice.service.PvIrradianceService;
 import jakarta.websocket.DeploymentException;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,11 +13,16 @@ import java.util.List;
 @RestController
 public class PvServiceController {
 
-    @Autowired
-    PvIrradianceService pvIrradianceService;
+//    @Autowired
+    private final PvIrradianceService pvIrradianceService;
+
+    public PvServiceController(PvIrradianceService pvIrradianceService) {
+        this.pvIrradianceService = pvIrradianceService;
+    }
 
     @PostMapping("/daily")
-    public List<PvDetails> getHourlyPv(@RequestBody SolarArrayRequest request) throws DeploymentException {
-        return pvIrradianceService.getPvIrradiance(request);
+    public ResponseEntity<List<PvDetails>> getHourlyPv(@RequestBody SolarArrayRequest request) throws DeploymentException {
+        return pvIrradianceService.getPvIrradiance(request).map(ResponseEntity::ok)
+            .orElseGet(() -> ResponseEntity.notFound().build());
     }
 }

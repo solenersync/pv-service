@@ -25,9 +25,8 @@ public class PvServiceApplication {
 
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-		return args -> {
+		return args ->
 			log.info("pv service up and running...");
-		};
 	}
 
 	@Bean

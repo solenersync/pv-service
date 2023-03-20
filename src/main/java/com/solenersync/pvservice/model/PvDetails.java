@@ -21,6 +21,7 @@ public class PvDetails {
     private float diffuseIrradiance;
     @JsonProperty("Gcs(i)")
     private float clearSkyIrradiance;
+    private float peakGlobalOutput;
 
 
 }
