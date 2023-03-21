@@ -28,4 +28,4 @@ jobs:
       - name: Prepare
         run: mvn compile test-compile
       - name: Pull and verify contracts
-        run: mvn test -P pact-provider -Dpact.verifier.publishResults=true -Dpact.provider.version=$GIT_COMMIT --provider-version-branch=${GIT_REF:11} -Dpactbroker.url=$PACT_BROKER_BASE_URL -Dpactbroker.token=$PACT_BROKER_TOKEN
+        run: mvn test -P pact-provider -Dpact.verifier.publishResults=true -Dpact.provider.version=$GIT_COMMIT --provider-version-branch=${GIT_REF:11} -Dpactbroker.url=$PACT_BROKER_BASE_URL -Dpactbroker.token=$PACT_BROKER_TOKEN -Dpactbroker.consumerversionselectors.mainBranch=true
