@@ -152,20 +152,6 @@
 									<goal>test</goal>
 								</goals>
 								<configuration>
-									<systemProperties>
-										<property>
-											<name>pactbroker.url</name>
-											<value>PACT_BROKER_BASE_URL</value>
-										</property>
-										<property>
-											<name>pact.verifier.publishResults</name>
-											<value>true</value>
-										</property>
-										<property>
-											<name>pactbroker.consumerversionselectors.branch</name>
-											<value>main</value>
-										</property>
-									</systemProperties>
 									<includes>
 										<include>**/*ContractTests.java</include>
 									</includes>

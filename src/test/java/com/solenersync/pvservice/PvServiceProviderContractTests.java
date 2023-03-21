@@ -4,9 +4,7 @@ import au.com.dius.pact.provider.junit5.HttpTestTarget;
 import au.com.dius.pact.provider.junit5.PactVerificationContext;
 import au.com.dius.pact.provider.junit5.PactVerificationInvocationContextProvider;
 import au.com.dius.pact.provider.junitsupport.*;
-import au.com.dius.pact.provider.junitsupport.loader.PactBroker;
-import au.com.dius.pact.provider.junitsupport.loader.PactBrokerAuth;
-import au.com.dius.pact.provider.junitsupport.loader.PactFolder;
+import au.com.dius.pact.provider.junitsupport.loader.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestTemplate;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -19,6 +17,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 
+
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Provider("pv-service")
 @Consumer("ses-front-end")
@@ -29,6 +28,12 @@ import java.io.IOException;
 @ExtendWith(SpringExtension.class)
 @ActiveProfiles("pact-provider")
 public class PvServiceProviderContractTests {
+
+	@PactBrokerConsumerVersionSelectors
+	public static SelectorBuilder consumerVersionSelectors() {
+		return new SelectorBuilder()
+			.branch("main");
+	}
 
 	@MockBean
 	RestTemplate restTemplate;
