@@ -5,6 +5,7 @@ import au.com.dius.pact.provider.junit5.PactVerificationContext;
 import au.com.dius.pact.provider.junit5.PactVerificationInvocationContextProvider;
 import au.com.dius.pact.provider.junitsupport.*;
 import au.com.dius.pact.provider.junitsupport.loader.PactBroker;
+import au.com.dius.pact.provider.junitsupport.loader.PactBrokerAuth;
 import au.com.dius.pact.provider.junitsupport.loader.PactFolder;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestTemplate;
@@ -21,7 +22,7 @@ import java.io.IOException;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Provider("pv-service")
 @Consumer("ses-front-end")
-@PactBroker(url = "https://solenersync.pactflow.io")
+@PactBroker(url = "https://solenersync.pactflow.io", authentication = @PactBrokerAuth(token = "${PACT_BROKER_TOKEN}"))
 //@PactFolder("pacts")
 @IgnoreNoPactsToVerify
 @IgnoreMissingStateChange
