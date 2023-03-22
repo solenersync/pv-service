@@ -13,16 +13,16 @@ import java.util.List;
 @RestController
 public class PvServiceController {
 
-//    @Autowired
     private final PvIrradianceService pvIrradianceService;
 
     public PvServiceController(PvIrradianceService pvIrradianceService) {
         this.pvIrradianceService = pvIrradianceService;
     }
 
+    @CrossOrigin
     @PostMapping("/daily")
     public ResponseEntity<List<PvDetails>> getHourlyPv(@RequestBody SolarArrayRequest request) throws DeploymentException {
         return pvIrradianceService.getPvIrradiance(request).map(ResponseEntity::ok)
-            .orElseGet(() -> ResponseEntity.notFound().build());
+            .orElseGet(() -> ResponseEntity.badRequest().build());
     }
 }

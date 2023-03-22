@@ -21,19 +21,13 @@ import java.io.IOException;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Provider("pv-service")
 @Consumer("ses-front-end")
-@PactBroker(url = "https://solenersync.pactflow.io", authentication = @PactBrokerAuth(token = "${PACT_BROKER_TOKEN}"))
-//@PactFolder("pacts")
-@IgnoreNoPactsToVerify
+//@PactBroker(url = "https://solenersync.pactflow.io", authentication = @PactBrokerAuth(token = "${PACT_BROKER_TOKEN}"))
+@PactFolder("pacts")
 @IgnoreMissingStateChange
 @ExtendWith(SpringExtension.class)
 @ActiveProfiles("pact-provider")
 public class PvServiceProviderContractTests {
 
-	@PactBrokerConsumerVersionSelectors
-	public static SelectorBuilder consumerVersionSelectors() {
-		return new SelectorBuilder()
-			.branch("main");
-	}
 
 	@MockBean
 	RestTemplate restTemplate;
@@ -56,9 +50,14 @@ public class PvServiceProviderContractTests {
 		}
 	}
 
-	@State("should return a solar forecast")
-	void getUserByEmail() throws IOException {
+	@State("a solar forecast is available")
+	void getSolarForecast() throws IOException {
 		StubSetup.stubForGetHourlyPv(restTemplate);
+	}
+
+	@State("a solar forecast is not available")
+	void getSolarForecastFail() throws IOException {
+		StubSetup.stubForGetHourlyPvFail(restTemplate);
 	}
 }
 

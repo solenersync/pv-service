@@ -54,7 +54,7 @@ class PvIrradianceServiceUnitTests {
 		.lat(52.207306f)
 		.lon(-6.52026f)
 		.month(1)
-		.peakpower(8.2f)
+		.peakPower(8.2f)
 		.loss(0.145f)
 		.mounting(Mounting.FREE)
 		.build();
