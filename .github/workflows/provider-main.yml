@@ -1,7 +1,7 @@
 name: Provider Tests
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
@@ -16,7 +16,7 @@ env:
 
 jobs:
   test:
-    name: Provider verify
+    name: Verify on push to main
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,4 +30,4 @@ jobs:
       - name: Prepare
         run: mvn compile test-compile
       - name: Pull and verify contracts
-        run: mvn test -P pact-provider -Dpact.verifier.publishResults=true -Dpactbroker.consumerversionselectors.tags=main -Dpactbroker.url=$PACT_BROKER_BASE_URL -Dpact.provider.version=PR-${GIT_REF}
+        run: mvn test -P pact-provider -Dpact.verifier.publishResults=true -Dpact.provider.version=${GIT_REF:10}
