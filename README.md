@@ -1,9 +1,11 @@
-# PV service for Solenersync application
+# pv-service - a solar forecasting service
+
+ - Consumes pvgis tool to obtain solar irradiance data
+ - Formats the returned data
+
+ - https://joint-research-centre.ec.europa.eu/pvgis-online-tool_en
+ 
 
 ## Deployment
 
-localhost:8080
-
-## Consumes external irradiance data
-https://joint-research-centre.ec.europa.eu/pvgis-online-tool/getting-started-pvgis/pvgis-user-manual_en
-
+    runs on port 8080
