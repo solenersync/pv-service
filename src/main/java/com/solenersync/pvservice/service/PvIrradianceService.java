@@ -45,8 +45,12 @@ public class PvIrradianceService {
         Mounting mountingplace = request.getMounting();
         URI url = new UriTemplate(PVGIS_URL)
             .expand(angle, aspect, lat, lon, loss, peakpower, mountingplace, month);
-        ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
-        return Optional.of(convert(response, peakpower));
+        try {
+            ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
+            return Optional.of(convert(response, peakpower));
+        } catch (Exception e) {
+            return Optional.empty();
+        }
     }
 
     private List<PvDetails> convert(ResponseEntity<String> response, float peakpower) {

@@ -15,7 +15,6 @@ import java.util.List;
 @RestController
 public class PvServiceController {
 
-//    @Autowired
     private final PvIrradianceService pvIrradianceService;
 
     public PvServiceController(PvIrradianceService pvIrradianceService) {
@@ -26,6 +25,6 @@ public class PvServiceController {
     public ResponseEntity<List<PvDetails>> getHourlyPv(@RequestBody SolarArrayRequest request) throws DeploymentException {
         log.info("Retrieving solar forecast for user {} ",request.getUserId());
         return pvIrradianceService.getPvIrradiance(request).map(ResponseEntity::ok)
-            .orElseGet(() -> ResponseEntity.notFound().build());
+            .orElseGet(() -> ResponseEntity.badRequest().build());
     }
 }
