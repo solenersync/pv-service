@@ -1,2 +1,11 @@
-# pv-service
-test
+# pv-service - a solar forecasting service
+
+ - Consumes pvgis tool to obtain solar irradiance data
+ - Formats the returned data
+
+ - https://joint-research-centre.ec.europa.eu/pvgis-online-tool_en
+ 
+
+## Deployment
+
+    runs on port 8080

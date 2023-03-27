@@ -40,7 +40,7 @@ public class PvIrradianceService {
         float lat = request.getLat();
         float lon = request.getLon();
         float loss = request.getLoss();
-        float peakpower = request.getPeakpower();
+        float peakpower = request.getPeakPower();
         int month = request.getMonth();
         Mounting mountingplace = request.getMounting();
         URI url = new UriTemplate(PVGIS_URL)
