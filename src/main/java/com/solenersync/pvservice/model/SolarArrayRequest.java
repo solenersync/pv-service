@@ -18,5 +18,6 @@ public class SolarArrayRequest {
     private float aspect;
     private int month;
     private Mounting mounting;
+    private String date;
 
 }

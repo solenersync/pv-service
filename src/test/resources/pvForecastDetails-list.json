@@ -1,0 +1,1346 @@
+[
+  {
+    "date": "2023-03-30T00:00",
+    "time": "00:00",
+    "lowCloud": 0,
+    "midCloud": 29,
+    "highCloud": 100,
+    "maxCloudCover": 29
+  },
+  {
+    "date": "2023-03-30T01:00",
+    "time": "01:00",
+    "lowCloud": 0,
+    "midCloud": 57,
+    "highCloud": 100,
+    "maxCloudCover": 57
+  },
+  {
+    "date": "2023-03-30T02:00",
+    "time": "02:00",
+    "lowCloud": 0,
+    "midCloud": 88,
+    "highCloud": 0,
+    "maxCloudCover": 88
+  },
+  {
+    "date": "2023-03-30T03:00",
+    "time": "03:00",
+    "lowCloud": 2,
+    "midCloud": 47,
+    "highCloud": 0,
+    "maxCloudCover": 47
+  },
+  {
+    "date": "2023-03-30T04:00",
+    "time": "04:00",
+    "lowCloud": 70,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-30T05:00",
+    "time": "05:00",
+    "lowCloud": 50,
+    "midCloud": 39,
+    "highCloud": 0,
+    "maxCloudCover": 50
+  },
+  {
+    "date": "2023-03-30T06:00",
+    "time": "06:00",
+    "lowCloud": 0,
+    "midCloud": 26,
+    "highCloud": 100,
+    "maxCloudCover": 26
+  },
+  {
+    "date": "2023-03-30T07:00",
+    "time": "07:00",
+    "lowCloud": 71,
+    "midCloud": 54,
+    "highCloud": 100,
+    "maxCloudCover": 71
+  },
+  {
+    "date": "2023-03-30T08:00",
+    "time": "08:00",
+    "lowCloud": 89,
+    "midCloud": 96,
+    "highCloud": 0,
+    "maxCloudCover": 96
+  },
+  {
+    "date": "2023-03-30T09:00",
+    "time": "09:00",
+    "lowCloud": 100,
+    "midCloud": 89,
+    "highCloud": 7,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-30T10:00",
+    "time": "10:00",
+    "lowCloud": 77,
+    "midCloud": 100,
+    "highCloud": 0,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-30T11:00",
+    "time": "11:00",
+    "lowCloud": 100,
+    "midCloud": 83,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-30T12:00",
+    "time": "12:00",
+    "lowCloud": 96,
+    "midCloud": 100,
+    "highCloud": 0,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-30T13:00",
+    "time": "13:00",
+    "lowCloud": 68,
+    "midCloud": 56,
+    "highCloud": 0,
+    "maxCloudCover": 68
+  },
+  {
+    "date": "2023-03-30T14:00",
+    "time": "14:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 0,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-30T15:00",
+    "time": "15:00",
+    "lowCloud": 77,
+    "midCloud": 82,
+    "highCloud": 0,
+    "maxCloudCover": 82
+  },
+  {
+    "date": "2023-03-30T16:00",
+    "time": "16:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 13,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-30T17:00",
+    "time": "17:00",
+    "lowCloud": 77,
+    "midCloud": 67,
+    "highCloud": 0,
+    "maxCloudCover": 77
+  },
+  {
+    "date": "2023-03-30T18:00",
+    "time": "18:00",
+    "lowCloud": 96,
+    "midCloud": 59,
+    "highCloud": 0,
+    "maxCloudCover": 96
+  },
+  {
+    "date": "2023-03-30T19:00",
+    "time": "19:00",
+    "lowCloud": 65,
+    "midCloud": 78,
+    "highCloud": 0,
+    "maxCloudCover": 78
+  },
+  {
+    "date": "2023-03-30T20:00",
+    "time": "20:00",
+    "lowCloud": 75,
+    "midCloud": 84,
+    "highCloud": 0,
+    "maxCloudCover": 84
+  },
+  {
+    "date": "2023-03-30T21:00",
+    "time": "21:00",
+    "lowCloud": 44,
+    "midCloud": 33,
+    "highCloud": 0,
+    "maxCloudCover": 44
+  },
+  {
+    "date": "2023-03-30T22:00",
+    "time": "22:00",
+    "lowCloud": 53,
+    "midCloud": 11,
+    "highCloud": 0,
+    "maxCloudCover": 53
+  },
+  {
+    "date": "2023-03-30T23:00",
+    "time": "23:00",
+    "lowCloud": 84,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 84
+  },
+  {
+    "date": "2023-03-31T00:00",
+    "time": "00:00",
+    "lowCloud": 92,
+    "midCloud": 7,
+    "highCloud": 100,
+    "maxCloudCover": 92
+  },
+  {
+    "date": "2023-03-31T01:00",
+    "time": "01:00",
+    "lowCloud": 75,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T02:00",
+    "time": "02:00",
+    "lowCloud": 57,
+    "midCloud": 78,
+    "highCloud": 0,
+    "maxCloudCover": 78
+  },
+  {
+    "date": "2023-03-31T03:00",
+    "time": "03:00",
+    "lowCloud": 81,
+    "midCloud": 99,
+    "highCloud": 51,
+    "maxCloudCover": 99
+  },
+  {
+    "date": "2023-03-31T04:00",
+    "time": "04:00",
+    "lowCloud": 79,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T05:00",
+    "time": "05:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T06:00",
+    "time": "06:00",
+    "lowCloud": 92,
+    "midCloud": 100,
+    "highCloud": 0,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T07:00",
+    "time": "07:00",
+    "lowCloud": 96,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T08:00",
+    "time": "08:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T09:00",
+    "time": "09:00",
+    "lowCloud": 86,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T10:00",
+    "time": "10:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T11:00",
+    "time": "11:00",
+    "lowCloud": 86,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T12:00",
+    "time": "12:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T13:00",
+    "time": "13:00",
+    "lowCloud": 98,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T14:00",
+    "time": "14:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T15:00",
+    "time": "15:00",
+    "lowCloud": 87,
+    "midCloud": 97,
+    "highCloud": 100,
+    "maxCloudCover": 97
+  },
+  {
+    "date": "2023-03-31T16:00",
+    "time": "16:00",
+    "lowCloud": 82,
+    "midCloud": 95,
+    "highCloud": 100,
+    "maxCloudCover": 95
+  },
+  {
+    "date": "2023-03-31T17:00",
+    "time": "17:00",
+    "lowCloud": 92,
+    "midCloud": 91,
+    "highCloud": 100,
+    "maxCloudCover": 92
+  },
+  {
+    "date": "2023-03-31T18:00",
+    "time": "18:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 56,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T19:00",
+    "time": "19:00",
+    "lowCloud": 91,
+    "midCloud": 89,
+    "highCloud": 50,
+    "maxCloudCover": 91
+  },
+  {
+    "date": "2023-03-31T20:00",
+    "time": "20:00",
+    "lowCloud": 100,
+    "midCloud": 96,
+    "highCloud": 50,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T21:00",
+    "time": "21:00",
+    "lowCloud": 100,
+    "midCloud": 81,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T22:00",
+    "time": "22:00",
+    "lowCloud": 100,
+    "midCloud": 99,
+    "highCloud": 74,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-03-31T23:00",
+    "time": "23:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 22,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T00:00",
+    "time": "00:00",
+    "lowCloud": 96,
+    "midCloud": 98,
+    "highCloud": 77,
+    "maxCloudCover": 98
+  },
+  {
+    "date": "2023-04-01T01:00",
+    "time": "01:00",
+    "lowCloud": 100,
+    "midCloud": 96,
+    "highCloud": 86,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T02:00",
+    "time": "02:00",
+    "lowCloud": 100,
+    "midCloud": 82,
+    "highCloud": 48,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T03:00",
+    "time": "03:00",
+    "lowCloud": 100,
+    "midCloud": 95,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T04:00",
+    "time": "04:00",
+    "lowCloud": 100,
+    "midCloud": 92,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T05:00",
+    "time": "05:00",
+    "lowCloud": 100,
+    "midCloud": 93,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T06:00",
+    "time": "06:00",
+    "lowCloud": 95,
+    "midCloud": 87,
+    "highCloud": 100,
+    "maxCloudCover": 95
+  },
+  {
+    "date": "2023-04-01T07:00",
+    "time": "07:00",
+    "lowCloud": 100,
+    "midCloud": 92,
+    "highCloud": 71,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T08:00",
+    "time": "08:00",
+    "lowCloud": 100,
+    "midCloud": 89,
+    "highCloud": 50,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T09:00",
+    "time": "09:00",
+    "lowCloud": 100,
+    "midCloud": 98,
+    "highCloud": 69,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T10:00",
+    "time": "10:00",
+    "lowCloud": 100,
+    "midCloud": 98,
+    "highCloud": 97,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T11:00",
+    "time": "11:00",
+    "lowCloud": 100,
+    "midCloud": 94,
+    "highCloud": 61,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T12:00",
+    "time": "12:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T13:00",
+    "time": "13:00",
+    "lowCloud": 100,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T14:00",
+    "time": "14:00",
+    "lowCloud": 99,
+    "midCloud": 100,
+    "highCloud": 100,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T15:00",
+    "time": "15:00",
+    "lowCloud": 96,
+    "midCloud": 97,
+    "highCloud": 100,
+    "maxCloudCover": 97
+  },
+  {
+    "date": "2023-04-01T16:00",
+    "time": "16:00",
+    "lowCloud": 94,
+    "midCloud": 100,
+    "highCloud": 86,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-01T17:00",
+    "time": "17:00",
+    "lowCloud": 90,
+    "midCloud": 97,
+    "highCloud": 55,
+    "maxCloudCover": 97
+  },
+  {
+    "date": "2023-04-01T18:00",
+    "time": "18:00",
+    "lowCloud": 93,
+    "midCloud": 92,
+    "highCloud": 5,
+    "maxCloudCover": 93
+  },
+  {
+    "date": "2023-04-01T19:00",
+    "time": "19:00",
+    "lowCloud": 91,
+    "midCloud": 90,
+    "highCloud": 0,
+    "maxCloudCover": 91
+  },
+  {
+    "date": "2023-04-01T20:00",
+    "time": "20:00",
+    "lowCloud": 93,
+    "midCloud": 91,
+    "highCloud": 0,
+    "maxCloudCover": 93
+  },
+  {
+    "date": "2023-04-01T21:00",
+    "time": "21:00",
+    "lowCloud": 92,
+    "midCloud": 89,
+    "highCloud": 10,
+    "maxCloudCover": 92
+  },
+  {
+    "date": "2023-04-01T22:00",
+    "time": "22:00",
+    "lowCloud": 79,
+    "midCloud": 90,
+    "highCloud": 100,
+    "maxCloudCover": 90
+  },
+  {
+    "date": "2023-04-01T23:00",
+    "time": "23:00",
+    "lowCloud": 81,
+    "midCloud": 100,
+    "highCloud": 0,
+    "maxCloudCover": 100
+  },
+  {
+    "date": "2023-04-02T00:00",
+    "time": "00:00",
+    "lowCloud": 92,
+    "midCloud": 95,
+    "highCloud": 0,
+    "maxCloudCover": 95
+  },
+  {
+    "date": "2023-04-02T01:00",
+    "time": "01:00",
+    "lowCloud": 63,
+    "midCloud": 88,
+    "highCloud": 47,
+    "maxCloudCover": 88
+  },
+  {
+    "date": "2023-04-02T02:00",
+    "time": "02:00",
+    "lowCloud": 80,
+    "midCloud": 50,
+    "highCloud": 14,
+    "maxCloudCover": 80
+  },
+  {
+    "date": "2023-04-02T03:00",
+    "time": "03:00",
+    "lowCloud": 74,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 74
+  },
+  {
+    "date": "2023-04-02T04:00",
+    "time": "04:00",
+    "lowCloud": 55,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 55
+  },
+  {
+    "date": "2023-04-02T05:00",
+    "time": "05:00",
+    "lowCloud": 67,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 67
+  },
+  {
+    "date": "2023-04-02T06:00",
+    "time": "06:00",
+    "lowCloud": 56,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 56
+  },
+  {
+    "date": "2023-04-02T07:00",
+    "time": "07:00",
+    "lowCloud": 55,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 55
+  },
+  {
+    "date": "2023-04-02T08:00",
+    "time": "08:00",
+    "lowCloud": 41,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 41
+  },
+  {
+    "date": "2023-04-02T09:00",
+    "time": "09:00",
+    "lowCloud": 42,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 42
+  },
+  {
+    "date": "2023-04-02T10:00",
+    "time": "10:00",
+    "lowCloud": 55,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 55
+  },
+  {
+    "date": "2023-04-02T11:00",
+    "time": "11:00",
+    "lowCloud": 51,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 51
+  },
+  {
+    "date": "2023-04-02T12:00",
+    "time": "12:00",
+    "lowCloud": 45,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 45
+  },
+  {
+    "date": "2023-04-02T13:00",
+    "time": "13:00",
+    "lowCloud": 57,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 57
+  },
+  {
+    "date": "2023-04-02T14:00",
+    "time": "14:00",
+    "lowCloud": 52,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 52
+  },
+  {
+    "date": "2023-04-02T15:00",
+    "time": "15:00",
+    "lowCloud": 51,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 51
+  },
+  {
+    "date": "2023-04-02T16:00",
+    "time": "16:00",
+    "lowCloud": 54,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 54
+  },
+  {
+    "date": "2023-04-02T17:00",
+    "time": "17:00",
+    "lowCloud": 41,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 41
+  },
+  {
+    "date": "2023-04-02T18:00",
+    "time": "18:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-02T19:00",
+    "time": "19:00",
+    "lowCloud": 1,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 1
+  },
+  {
+    "date": "2023-04-02T20:00",
+    "time": "20:00",
+    "lowCloud": 2,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 2
+  },
+  {
+    "date": "2023-04-02T21:00",
+    "time": "21:00",
+    "lowCloud": 3,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 3
+  },
+  {
+    "date": "2023-04-02T22:00",
+    "time": "22:00",
+    "lowCloud": 2,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 2
+  },
+  {
+    "date": "2023-04-02T23:00",
+    "time": "23:00",
+    "lowCloud": 1,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 1
+  },
+  {
+    "date": "2023-04-03T00:00",
+    "time": "00:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-03T01:00",
+    "time": "01:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-03T02:00",
+    "time": "02:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-03T03:00",
+    "time": "03:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-03T04:00",
+    "time": "04:00",
+    "lowCloud": 11,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 11
+  },
+  {
+    "date": "2023-04-03T05:00",
+    "time": "05:00",
+    "lowCloud": 21,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 21
+  },
+  {
+    "date": "2023-04-03T06:00",
+    "time": "06:00",
+    "lowCloud": 32,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 32
+  },
+  {
+    "date": "2023-04-03T07:00",
+    "time": "07:00",
+    "lowCloud": 25,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 25
+  },
+  {
+    "date": "2023-04-03T08:00",
+    "time": "08:00",
+    "lowCloud": 18,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 18
+  },
+  {
+    "date": "2023-04-03T09:00",
+    "time": "09:00",
+    "lowCloud": 11,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 11
+  },
+  {
+    "date": "2023-04-03T10:00",
+    "time": "10:00",
+    "lowCloud": 23,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 23
+  },
+  {
+    "date": "2023-04-03T11:00",
+    "time": "11:00",
+    "lowCloud": 34,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 34
+  },
+  {
+    "date": "2023-04-03T12:00",
+    "time": "12:00",
+    "lowCloud": 46,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 46
+  },
+  {
+    "date": "2023-04-03T13:00",
+    "time": "13:00",
+    "lowCloud": 46,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 46
+  },
+  {
+    "date": "2023-04-03T14:00",
+    "time": "14:00",
+    "lowCloud": 45,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 45
+  },
+  {
+    "date": "2023-04-03T15:00",
+    "time": "15:00",
+    "lowCloud": 45,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 45
+  },
+  {
+    "date": "2023-04-03T16:00",
+    "time": "16:00",
+    "lowCloud": 43,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 43
+  },
+  {
+    "date": "2023-04-03T17:00",
+    "time": "17:00",
+    "lowCloud": 42,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 42
+  },
+  {
+    "date": "2023-04-03T18:00",
+    "time": "18:00",
+    "lowCloud": 40,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 40
+  },
+  {
+    "date": "2023-04-03T19:00",
+    "time": "19:00",
+    "lowCloud": 27,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 27
+  },
+  {
+    "date": "2023-04-03T20:00",
+    "time": "20:00",
+    "lowCloud": 13,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 13
+  },
+  {
+    "date": "2023-04-03T21:00",
+    "time": "21:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-03T22:00",
+    "time": "22:00",
+    "lowCloud": 1,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 1
+  },
+  {
+    "date": "2023-04-03T23:00",
+    "time": "23:00",
+    "lowCloud": 2,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 2
+  },
+  {
+    "date": "2023-04-04T00:00",
+    "time": "00:00",
+    "lowCloud": 3,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 3
+  },
+  {
+    "date": "2023-04-04T01:00",
+    "time": "01:00",
+    "lowCloud": 2,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 2
+  },
+  {
+    "date": "2023-04-04T02:00",
+    "time": "02:00",
+    "lowCloud": 1,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 1
+  },
+  {
+    "date": "2023-04-04T03:00",
+    "time": "03:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-04T04:00",
+    "time": "04:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-04T05:00",
+    "time": "05:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-04T06:00",
+    "time": "06:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-04T07:00",
+    "time": "07:00",
+    "lowCloud": 9,
+    "midCloud": 17,
+    "highCloud": 0,
+    "maxCloudCover": 17
+  },
+  {
+    "date": "2023-04-04T08:00",
+    "time": "08:00",
+    "lowCloud": 18,
+    "midCloud": 33,
+    "highCloud": 0,
+    "maxCloudCover": 33
+  },
+  {
+    "date": "2023-04-04T09:00",
+    "time": "09:00",
+    "lowCloud": 27,
+    "midCloud": 50,
+    "highCloud": 0,
+    "maxCloudCover": 50
+  },
+  {
+    "date": "2023-04-04T10:00",
+    "time": "10:00",
+    "lowCloud": 26,
+    "midCloud": 49,
+    "highCloud": 0,
+    "maxCloudCover": 49
+  },
+  {
+    "date": "2023-04-04T11:00",
+    "time": "11:00",
+    "lowCloud": 25,
+    "midCloud": 47,
+    "highCloud": 0,
+    "maxCloudCover": 47
+  },
+  {
+    "date": "2023-04-04T12:00",
+    "time": "12:00",
+    "lowCloud": 24,
+    "midCloud": 46,
+    "highCloud": 0,
+    "maxCloudCover": 46
+  },
+  {
+    "date": "2023-04-04T13:00",
+    "time": "13:00",
+    "lowCloud": 24,
+    "midCloud": 41,
+    "highCloud": 0,
+    "maxCloudCover": 41
+  },
+  {
+    "date": "2023-04-04T14:00",
+    "time": "14:00",
+    "lowCloud": 16,
+    "midCloud": 54,
+    "highCloud": 0,
+    "maxCloudCover": 54
+  },
+  {
+    "date": "2023-04-04T15:00",
+    "time": "15:00",
+    "lowCloud": 9,
+    "midCloud": 67,
+    "highCloud": 0,
+    "maxCloudCover": 67
+  },
+  {
+    "date": "2023-04-04T16:00",
+    "time": "16:00",
+    "lowCloud": 17,
+    "midCloud": 45,
+    "highCloud": 0,
+    "maxCloudCover": 45
+  },
+  {
+    "date": "2023-04-04T17:00",
+    "time": "17:00",
+    "lowCloud": 25,
+    "midCloud": 22,
+    "highCloud": 0,
+    "maxCloudCover": 25
+  },
+  {
+    "date": "2023-04-04T18:00",
+    "time": "18:00",
+    "lowCloud": 33,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 33
+  },
+  {
+    "date": "2023-04-04T19:00",
+    "time": "19:00",
+    "lowCloud": 35,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 35
+  },
+  {
+    "date": "2023-04-04T20:00",
+    "time": "20:00",
+    "lowCloud": 37,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 37
+  },
+  {
+    "date": "2023-04-04T21:00",
+    "time": "21:00",
+    "lowCloud": 39,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 39
+  },
+  {
+    "date": "2023-04-04T22:00",
+    "time": "22:00",
+    "lowCloud": 32,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 32
+  },
+  {
+    "date": "2023-04-04T23:00",
+    "time": "23:00",
+    "lowCloud": 25,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 25
+  },
+  {
+    "date": "2023-04-05T00:00",
+    "time": "00:00",
+    "lowCloud": 18,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 18
+  },
+  {
+    "date": "2023-04-05T01:00",
+    "time": "01:00",
+    "lowCloud": 12,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 12
+  },
+  {
+    "date": "2023-04-05T02:00",
+    "time": "02:00",
+    "lowCloud": 6,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 6
+  },
+  {
+    "date": "2023-04-05T03:00",
+    "time": "03:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-05T04:00",
+    "time": "04:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-05T05:00",
+    "time": "05:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-05T06:00",
+    "time": "06:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-05T07:00",
+    "time": "07:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-05T08:00",
+    "time": "08:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-05T09:00",
+    "time": "09:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-05T10:00",
+    "time": "10:00",
+    "lowCloud": 7,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 7
+  },
+  {
+    "date": "2023-04-05T11:00",
+    "time": "11:00",
+    "lowCloud": 14,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 14
+  },
+  {
+    "date": "2023-04-05T12:00",
+    "time": "12:00",
+    "lowCloud": 21,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 21
+  },
+  {
+    "date": "2023-04-05T13:00",
+    "time": "13:00",
+    "lowCloud": 25,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 25
+  },
+  {
+    "date": "2023-04-05T14:00",
+    "time": "14:00",
+    "lowCloud": 28,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 28
+  },
+  {
+    "date": "2023-04-05T15:00",
+    "time": "15:00",
+    "lowCloud": 32,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 32
+  },
+  {
+    "date": "2023-04-05T16:00",
+    "time": "16:00",
+    "lowCloud": 39,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 39
+  },
+  {
+    "date": "2023-04-05T17:00",
+    "time": "17:00",
+    "lowCloud": 46,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 46
+  },
+  {
+    "date": "2023-04-05T18:00",
+    "time": "18:00",
+    "lowCloud": 53,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 53
+  },
+  {
+    "date": "2023-04-05T19:00",
+    "time": "19:00",
+    "lowCloud": 35,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 35
+  },
+  {
+    "date": "2023-04-05T20:00",
+    "time": "20:00",
+    "lowCloud": 18,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 18
+  },
+  {
+    "date": "2023-04-05T21:00",
+    "time": "21:00",
+    "lowCloud": 0,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 0
+  },
+  {
+    "date": "2023-04-05T22:00",
+    "time": "22:00",
+    "lowCloud": 23,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 23
+  },
+  {
+    "date": "2023-04-05T23:00",
+    "time": "23:00",
+    "lowCloud": 46,
+    "midCloud": 0,
+    "highCloud": 0,
+    "maxCloudCover": 46
+  }
+]
