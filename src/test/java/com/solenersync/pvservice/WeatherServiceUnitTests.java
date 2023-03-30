@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.solenersync.pvservice.model.Mounting;
 import com.solenersync.pvservice.model.SolarArrayRequest;
 import com.solenersync.pvservice.model.WeatherDetails;
-import com.solenersync.pvservice.service.PvIrradianceService;
+import com.solenersync.pvservice.model.WeatherRequest;
 import com.solenersync.pvservice.service.WeatherService;
 import jakarta.websocket.DeploymentException;
 import org.apache.commons.io.FileUtils;
@@ -73,5 +73,28 @@ class WeatherServiceUnitTests {
 		when(restTemplate.getForEntity(any(), any())).thenThrow(RuntimeException.class);
 		Optional<List<WeatherDetails>> result = weatherService.getWeather(0, 0);
 		assertThat(result).isNotPresent();
+	}
+
+	@Test
+	void should_set_and_get_a_weather_request() {
+		float lat = 1.1f;
+		float lon = -1.2f;
+		WeatherRequest request = new WeatherRequest();
+		request.setLat(lat);
+		request.setLon(lon);
+		assertThat(request.getLat()).isEqualTo(lat);
+		assertThat(request.getLon()).isEqualTo(lon);
+	}
+
+	@Test
+	void should_build_a_weather_request() {
+		float lat = 1.1f;
+		float lon = -1.2f;
+		WeatherRequest request = WeatherRequest.builder()
+			.lat(lat)
+			.lon(lon)
+			.build();
+		assertThat(request.getLat()).isEqualTo(lat);
+		assertThat(request.getLon()).isEqualTo(lon);
 	}
 }

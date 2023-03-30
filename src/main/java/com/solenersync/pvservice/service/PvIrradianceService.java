@@ -98,7 +98,7 @@ public class PvIrradianceService {
         } catch (JsonProcessingException e) {
             log.debug("error converting response");
         } catch (DeploymentException e) {
-            e.printStackTrace();
+            log.debug("deployment exception");
         }
         return null;
     }
