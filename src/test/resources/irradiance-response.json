@@ -1,1 +1,312 @@
-{"inputs":{"location":{"latitude":52.207306,"longitude":-6.52026,"elevation":17.0},"meteo_data":{"radiation_db":"PVGIS-SARAH","meteo_db":"ERA-Interim","year_min":2005,"year_max":2016,"use_horizon":true,"horizon_db":"DEM-calculated"},"plane":{"fixed":{"slope":{"value":35.0,"optimal":false},"azimuth":{"value":2.0,"optimal":false}}},"time_format":"UTC"},"outputs":{"daily_profile":[{"month":1,"time":"00:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"01:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"02:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"03:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"04:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"05:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"06:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"07:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"08:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":75.53},{"month":1,"time":"09:00","G(i)":55.68,"Gb(i)":33.52,"Gd(i)":21.7,"Gcs(i)":293.89},{"month":1,"time":"10:00","G(i)":151.67,"Gb(i)":86.41,"Gd(i)":63.82,"Gcs(i)":474.59},{"month":1,"time":"11:00","G(i)":224.82,"Gb(i)":133.3,"Gd(i)":89.32,"Gcs(i)":587.02},{"month":1,"time":"12:00","G(i)":253.62,"Gb(i)":151.25,"Gd(i)":99.84,"Gcs(i)":619.52},{"month":1,"time":"13:00","G(i)":247.59,"Gb(i)":144.92,"Gd(i)":100.17,"Gcs(i)":568.66},{"month":1,"time":"14:00","G(i)":209.76,"Gb(i)":121.21,"Gd(i)":86.48,"Gcs(i)":438.09},{"month":1,"time":"15:00","G(i)":140.34,"Gb(i)":81.75,"Gd(i)":57.33,"Gcs(i)":240.71},{"month":1,"time":"16:00","G(i)":40.54,"Gb(i)":25.16,"Gd(i)":15.07,"Gcs(i)":0.0},{"month":1,"time":"17:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"18:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"19:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"20:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"21:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"22:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0},{"month":1,"time":"23:00","G(i)":0.0,"Gb(i)":0.0,"Gd(i)":0.0,"Gcs(i)":0.0}]},"meta":{"inputs":{"location":{"description":"Selected location","variables":{"latitude":{"description":"Latitude","units":"decimal degree"},"longitude":{"description":"Longitude","units":"decimal degree"},"elevation":{"description":"Elevation","units":"m"}}},"meteo_data":{"description":"Sources of meteorological data","variables":{"radiation_db":{"description":"Solar radiation database"},"meteo_db":{"description":"Database used for meteorological variables other than solar radiation"},"year_min":{"description":"First year of the calculations"},"year_max":{"description":"Last year of the calculations"},"use_horizon":{"description":"Include horizon shadows"},"horizon_db":{"description":"Source of horizon data"}}},"plane":{"description":"plane","fields":{"slope":{"description":"Inclination angle from the horizontal plane","units":"degree"},"azimuth":{"description":"Orientation (azimuth) angle of the (fixed) PV system (0 = S, 90 = W, -90 = E)","units":"degree"}}},"time_format":[{"description":"Local or UTC"}]},"outputs":{"daily_profile":{"type":"time series","timestamp":"hourly","variables":{"G(i)":{"description":" Global irradiance on a fixed plane","units":"W/m2"},"Gb(i)":{"description":"Direct irradiance on a fixed plane","units":"W/m2"},"Gd(i)":{"description":"Diffuse irradiance on a fixed plane","units":"W/m2"},"Gcs(i)":{"description":"Global clear-sky irradiance on a fixed plane","units":"W/m2"}}}}}}
+{
+  "inputs": {
+    "location": {
+      "latitude": 52.207306,
+      "longitude": -6.52026,
+      "elevation": 17.0
+    },
+    "meteo_data": {
+      "radiation_db": "PVGIS-SARAH",
+      "meteo_db": "ERA-Interim",
+      "year_min": 2005,
+      "year_max": 2016,
+      "use_horizon": true,
+      "horizon_db": "DEM-calculated"
+    },
+    "plane": {
+      "fixed": {
+        "slope": {
+          "value": 35.0,
+          "optimal": false
+        },
+        "azimuth": {
+          "value": 2.0,
+          "optimal": false
+        }
+      }
+    },
+    "time_format": "UTC"
+  },
+  "outputs": {
+    "daily_profile": [
+      {
+        "month": 1,
+        "time": "00:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "01:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "02:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "03:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "04:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "05:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "06:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "07:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "08:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 75.53
+      },
+      {
+        "month": 1,
+        "time": "09:00",
+        "G(i)": 55.68,
+        "Gb(i)": 33.52,
+        "Gd(i)": 21.7,
+        "Gcs(i)": 293.89
+      },
+      {
+        "month": 1,
+        "time": "10:00",
+        "G(i)": 151.67,
+        "Gb(i)": 86.41,
+        "Gd(i)": 63.82,
+        "Gcs(i)": 474.59
+      },
+      {
+        "month": 1,
+        "time": "11:00",
+        "G(i)": 224.82,
+        "Gb(i)": 133.3,
+        "Gd(i)": 89.32,
+        "Gcs(i)": 587.02
+      },
+      {
+        "month": 1,
+        "time": "12:00",
+        "G(i)": 253.62,
+        "Gb(i)": 151.25,
+        "Gd(i)": 99.84,
+        "Gcs(i)": 619.52
+      },
+      {
+        "month": 1,
+        "time": "13:00",
+        "G(i)": 247.59,
+        "Gb(i)": 144.92,
+        "Gd(i)": 100.17,
+        "Gcs(i)": 568.66
+      },
+      {
+        "month": 1,
+        "time": "14:00",
+        "G(i)": 209.76,
+        "Gb(i)": 121.21,
+        "Gd(i)": 86.48,
+        "Gcs(i)": 438.09
+      },
+      {
+        "month": 1,
+        "time": "15:00",
+        "G(i)": 140.34,
+        "Gb(i)": 81.75,
+        "Gd(i)": 57.33,
+        "Gcs(i)": 240.71
+      },
+      {
+        "month": 1,
+        "time": "16:00",
+        "G(i)": 40.54,
+        "Gb(i)": 25.16,
+        "Gd(i)": 15.07,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "17:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "18:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "19:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "20:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "21:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "22:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      },
+      {
+        "month": 1,
+        "time": "23:00",
+        "G(i)": 0.0,
+        "Gb(i)": 0.0,
+        "Gd(i)": 0.0,
+        "Gcs(i)": 0.0
+      }
+    ]
+  },
+  "meta": {
+    "inputs": {
+      "location": {
+        "description": "Selected location",
+        "variables": {
+          "latitude": {
+            "description": "Latitude",
+            "units": "decimal degree"
+          },
+          "longitude": {
+            "description": "Longitude",
+            "units": "decimal degree"
+          },
+          "elevation": {
+            "description": "Elevation",
+            "units": "m"
+          }
+        }
+      },
+      "meteo_data": {
+        "description": "Sources of meteorological data",
+        "variables": {
+          "radiation_db": {
+            "description": "Solar radiation database"
+          },
+          "meteo_db": {
+            "description": "Database used for meteorological variables other than solar radiation"
+          },
+          "year_min": {
+            "description": "First year of the calculations"
+          },
+          "year_max": {
+            "description": "Last year of the calculations"
+          },
+          "use_horizon": {
+            "description": "Include horizon shadows"
+          },
+          "horizon_db": {
+            "description": "Source of horizon data"
+          }
+        }
+      },
+      "plane": {
+        "description": "plane",
+        "fields": {
+          "slope": {
+            "description": "Inclination angle from the horizontal plane",
+            "units": "degree"
+          },
+          "azimuth": {
+            "description": "Orientation (azimuth) angle of the (fixed) PV system (0 = S, 90 = W, -90 = E)",
+            "units": "degree"
+          }
+        }
+      },
+      "time_format": [
+        {
+          "description": "Local or UTC"
+        }
+      ]
+    },
+    "outputs": {
+      "daily_profile": {
+        "type": "time series",
+        "timestamp": "hourly",
+        "variables": {
+          "G(i)": {
+            "description": " Global irradiance on a fixed plane",
+            "units": "W/m2"
+          },
+          "Gb(i)": {
+            "description": "Direct irradiance on a fixed plane",
+            "units": "W/m2"
+          },
+          "Gd(i)": {
+            "description": "Diffuse irradiance on a fixed plane",
+            "units": "W/m2"
+          },
+          "Gcs(i)": {
+            "description": "Global clear-sky irradiance on a fixed plane",
+            "units": "W/m2"
+          }
+        }
+      }
+    }
+  }
+}

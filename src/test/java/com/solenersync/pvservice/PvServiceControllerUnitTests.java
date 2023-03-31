@@ -1,56 +1,57 @@
 package com.solenersync.pvservice;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.solenersync.pvservice.controller.PvServiceController;
 import com.solenersync.pvservice.model.Mounting;
-import com.solenersync.pvservice.model.PvDetails;
+import com.solenersync.pvservice.model.PvForecastDetails;
 import com.solenersync.pvservice.model.SolarArrayRequest;
 import com.solenersync.pvservice.service.PvIrradianceService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 
 import java.util.List;
+import java.util.Optional;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.mockito.Mockito.when;
+
 
 @ExtendWith({MockitoExtension.class})
 class PvServiceControllerUnitTests {
 
-	private MockMvc mockMvc;
+	@InjectMocks
+	private PvServiceController pvServiceController;
 
 	@Mock
-	PvIrradianceService pvIrradianceService;
+	private PvIrradianceService pvIrradianceService;
 
-	ObjectMapper objectMapper = new ObjectMapper();
-//	RestTemplate restTemplate = new RestTemplate();
-
-//	PvIrradianceService pvIrradianceService = new PvIrradianceService(objectMapper, restTemplate);
+	private SolarArrayRequest solarArrayRequest;
+	private List<PvForecastDetails> pvForecastDetailsList;
 
 	@BeforeEach
 	public void setUp() {
-		mockMvc = MockMvcBuilders.standaloneSetup(new PvServiceController(pvIrradianceService)).build();
-	}
-
-	@Test
-	public void getHourlyPv() throws Exception {
-		List<PvDetails> pvDetailsList = List.of(PvDetails.builder()
-			.month(1)
+		pvForecastDetailsList = List.of(PvForecastDetails.builder()
 			.time("12:00")
 			.diffuseIrradiance(1.1f)
 			.directIrradiance(1.1f)
 			.globalIrradiance(1.1f)
 			.clearSkyIrradiance(1.1f)
+			.highCloud(1)
+			.lowCloud(1)
+			.midCloud(1)
+			.maxCloudCover(1)
+			.peakGlobalOutput(1)
+			.totalPowerOutput(1)
+			.date("date")
 			.build());
 
-		ObjectMapper objectMapper = new ObjectMapper();
-
-		SolarArrayRequest solarArrayRequest = SolarArrayRequest.builder()
+		solarArrayRequest = SolarArrayRequest.builder()
 			.angle(2.2f)
 			.aspect(2.2f)
 			.lat(2.2f)
@@ -59,25 +60,17 @@ class PvServiceControllerUnitTests {
 			.peakPower(2.2f)
 			.loss(2.2f)
 			.mounting(Mounting.FREE)
+			.month(1)
+			.date("date")
 			.build();
-
-//		when(pvIrradianceService.getPvIrradiance(solarArrayRequest)).thenReturn(Optional.of(pvDetailsList));
-//				mockMvc.perform(post("/api/v1/pv/daily")
-//			.contentType(APPLICATION_JSON)
-//			.content(objectMapper.writeValueAsString(solarArrayRequest)))
-//			.andExpect(status().isOk())
-//			.andExpect(MockMvcResultMatchers.content().json(objectMapper.writeValueAsString(pvDetailsList)));
 	}
 
-		// Then
-//		assertEquals(HttpStatus.NOT_FOUND, responseEntity.getStatusCode());
-//		assertTrue(responseEntity.getBody().isEmpty());
-//		when(restTemplate.getForEntity(anyString(), any(Class.class))).thenReturn((ResponseEntity<String>) json);
-//		mockMvc.perform(post("/api/v1/pv/daily")
-//			.contentType(APPLICATION_JSON)
-//			.content(objectMapper.writeValueAsString(solarArrayRequest)))
-//			.andExpect(status().isOk())
-//			.andExpect(MockMvcResultMatchers.content().json(json.toString()));
-//	}
+	@Test
+	public void should_return_pvForecast_data() throws Exception {
 
+		when(pvIrradianceService.getPvIrradiance(any(SolarArrayRequest.class))).thenReturn(Optional.of(pvForecastDetailsList));
+		ResponseEntity<List<PvForecastDetails>> response = pvServiceController.getHourlyPv(solarArrayRequest);
+		assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
+		assertThat(response.getBody()).isEqualTo(pvForecastDetailsList);
+	}
 }
