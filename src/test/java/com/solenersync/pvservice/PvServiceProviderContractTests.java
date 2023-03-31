@@ -5,6 +5,8 @@ import au.com.dius.pact.provider.junit5.PactVerificationContext;
 import au.com.dius.pact.provider.junit5.PactVerificationInvocationContextProvider;
 import au.com.dius.pact.provider.junitsupport.*;
 import au.com.dius.pact.provider.junitsupport.loader.*;
+import com.solenersync.pvservice.service.WeatherService;
+import jakarta.websocket.DeploymentException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestTemplate;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -32,6 +34,9 @@ public class PvServiceProviderContractTests {
 	@MockBean
 	RestTemplate restTemplate;
 
+	@MockBean
+	WeatherService weatherService;
+
 	@LocalServerPort
 	private int port;
 
@@ -51,8 +56,8 @@ public class PvServiceProviderContractTests {
 	}
 
 	@State("a solar forecast is available")
-	void getSolarForecast() throws IOException {
-		StubSetup.stubForGetHourlyPv(restTemplate);
+	void getSolarForecast() throws IOException, DeploymentException {
+		StubSetup.stubForGetHourlyPv(restTemplate, weatherService);
 	}
 
 	@State("a solar forecast is not available")
