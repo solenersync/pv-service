@@ -5,6 +5,8 @@
 
  - https://joint-research-centre.ec.europa.eu/pvgis-online-tool_en
  
+ - Consumes weather api available at https://open-meteo.com/
+ 
 
 ## Deployment
 
