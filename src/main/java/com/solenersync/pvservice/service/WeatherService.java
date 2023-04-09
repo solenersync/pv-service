@@ -66,7 +66,6 @@ public class WeatherService {
                 weatherDetails.setDate(String.valueOf(dateTime));
                 weatherDetails.setTime(dateTime.toLocalTime().toString());
                 int maxCloudCover = getLarger(weatherDetails.getLowCloud(), weatherDetails.getMidCloud());
-                weatherDetails.setMaxCloudCover(maxCloudCover);
                 weatherDetailsArray[i] = weatherDetails;
             }
             return Arrays.asList(weatherDetailsArray);

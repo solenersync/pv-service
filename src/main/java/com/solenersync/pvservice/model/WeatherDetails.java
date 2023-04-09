@@ -16,6 +16,5 @@ public class WeatherDetails {
     private int lowCloud;
     private int midCloud;
     private int highCloud;
-    private int maxCloudCover;
 
 }

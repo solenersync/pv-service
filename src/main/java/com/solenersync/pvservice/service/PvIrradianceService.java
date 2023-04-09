@@ -87,7 +87,6 @@ public class PvIrradianceService {
                 pvForecastDetails[i].setLowCloud(weatherArrayTrimmed[i].getLowCloud());
                 pvForecastDetails[i].setMidCloud(weatherArrayTrimmed[i].getMidCloud());
                 pvForecastDetails[i].setHighCloud(weatherArrayTrimmed[i].getHighCloud());
-                pvForecastDetails[i].setMaxCloudCover(weatherArrayTrimmed[i].getMaxCloudCover());
 
                 float realOutput = (float) ((peakpower / 1000) * (pvForecastDetails[i].getGlobalIrradiance() * ( 1 - 0.65 * ( pvForecastDetails[i].getMaxCloudCover() / 100))));
                 pvForecastDetails[i].setPeakGlobalOutput(realOutput);

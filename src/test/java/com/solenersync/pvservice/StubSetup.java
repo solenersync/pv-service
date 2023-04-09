@@ -34,7 +34,6 @@ public class StubSetup {
                 .highCloud(1)
                 .lowCloud(1)
                 .midCloud(1)
-                .maxCloudCover(1)
                 .date("2023-04-02T00:00")
                 .time("06:00")
                 .build();
